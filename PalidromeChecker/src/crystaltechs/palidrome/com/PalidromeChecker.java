@@ -18,5 +18,7 @@ public class PalidromeChecker {
 	{
 		return true;
 	}
+	
+	
 
 }
