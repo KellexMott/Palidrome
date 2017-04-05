@@ -14,4 +14,9 @@ public class PalidromeChecker {
 		return reverseString.toString();
 	}
 
+	public boolean isNumber(String string) 
+	{
+		return true;
+	}
+
 }

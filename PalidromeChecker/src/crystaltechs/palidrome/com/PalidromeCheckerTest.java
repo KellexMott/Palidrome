@@ -23,4 +23,9 @@ public class PalidromeCheckerTest extends TestCase {
 		assertFalse(testObject.isPalidrome("DADDY"));
 	}
 	
+	public void testIsNumber()
+	{
+		assertTrue(testObject.isNumber("Dad"));
+	}
+	
 }
