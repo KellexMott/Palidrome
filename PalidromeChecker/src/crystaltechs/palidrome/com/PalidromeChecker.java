@@ -2,14 +2,16 @@ package crystaltechs.palidrome.com;
 
 public class PalidromeChecker {
 
-	public boolean isPalidrome(String string) {
-		
+	public boolean isPalidrome(String string) 
+	{
+		return string.equalsIgnoreCase(getReversedString(string));
+	}
+	
+	private String getReversedString(String string)
+	{
 		StringBuffer reverseString = new StringBuffer(string);
 		reverseString.reverse();
-		
-		if (string.equalsIgnoreCase(reverseString.toString()))
-			return true;
-		return false;
+		return reverseString.toString();
 	}
 
 }
